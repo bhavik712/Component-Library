@@ -1,7 +1,19 @@
 {
-  "name": "vue-lib",
+  "name": "vue-component-lib",
   "version": "0.0.0",
-  "private": true,
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-component-lib.umd.cjs",
+  "module": "./dist/vue-component-lib.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-component-lib.js",
+      "require": "./dist/vue-component-lib.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

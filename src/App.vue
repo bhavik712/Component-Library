@@ -1,23 +1,11 @@
-<template>
-  <form-input :fieldProperties="inputData"></form-input>
-</template>
+<template></template>
 
 <script>
-import FormInput from "./components/FormInput.vue";
 export default {
   name: "app",
   data() {
-    return {
-      inputData: {
-        label: "Name",
-        name: "userName",
-        type: "text",
-        placeholder: "Enter Your Name",
-      },
-    };
+    return {};
   },
-  components: {
-    FormInput,
-  },
+  components: {},
 };
 </script>
