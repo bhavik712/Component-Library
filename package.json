@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "type": "module",
   "files": [
-    "dist"
+    "dist/style.css",
+    "dist/*.js",
+    "dist/*.umd.cjs"
   ],
   "main": "./dist/vue-component-lib.umd.cjs",
   "module": "./dist/vue-component-lib.js",

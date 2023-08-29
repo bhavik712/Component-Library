@@ -13,8 +13,7 @@ export default defineConfig({
       fileName: "vue-component-lib",
     },
     rollupOptions: {
-      external: ["vue"],
-      exclude: ["@/App.vue", "@/main.js"],
+      external: ["vue", "./src/App.vue", "./src/main.js"],
       output: {
         globals: {
           vue: "Vue",
